@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Task 12</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <style>
+        body{
+            background-color: beige;
+        }
+        form{
+            color: rgb(67, 58, 185);
+        }
+        /* input[type="button"]{
+            color:rgb(26, 60, 207) ;
+        } */
+        button[class="save"]{
+            background-color:rgb(61, 235, 17) ;
+        }
+        input[type="number"]{
+            color:rgb(119, 180, 236) ;
+        }
+        input[type="text"]{
+            color: rgb(119, 180, 236);
+        }
+        select{
+            color:rgb(119, 180, 236)  ;
+        }
+        li{
+            color:rgb(238, 9, 200)
+        }
+    </style>
+    <body>
+        <form id="expenses">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <label for="pnumber">Phone:</label>
+            <input type="number" id="pnumber" name="pnumber"> <br><br>
+            <button class="save">Save</button>
+        </form>
+        <main class="data">
+            
+        </main>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js"></script>
+        <script src="task 12.js"></script>
+    </body>
+</html>
